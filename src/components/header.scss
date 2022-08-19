@@ -1,7 +1,15 @@
-.logo{ margin-left: 5%;
+header {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 7%), 0 1px 2px 0 rgb(0 0 0 / 5%);
+    color: #212529;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.logo{ 
     display: flex;
     align-items: center;
-    gap:5%;
 
 }
 
@@ -9,5 +17,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:5%;
+}
+// img{
+    // width:20px;
+// }
+.btn{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    button{
+        border: none;
+        background: none;
+        
+    }
+    label{
+        font-size: 10px;
+    }
+    img{
+        width: 16px;
+    }
+    color: #212529;
+    outline: none;
+    padding: 0;
+    margin: 0;
+
 }

@@ -1,9 +1,5 @@
 export const menuItems = [
   {
-    title: 'Home',
-    url: '/',
-  },
-  {
     title: 'Services',
     url: '/services',
     submenu: [
@@ -94,20 +90,6 @@ export const menuItems = [
       {
         title: 'Desenvolvimento',
         url: '/desenvolvimento',
-      },
-    ],
-  },
-  {
-    title: 'User Options',
-    url: '/user-options',
-    submenu: [
-      {
-        title: 'Account',
-        url: '/account',
-      },
-      {
-        title: 'logout',
-        url: '/sigin',
       },
     ],
   },

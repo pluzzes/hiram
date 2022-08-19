@@ -2,7 +2,10 @@ import Navbar from './Navbar';
 // ...
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/logo.svg';
-import user from '../assets/img/user.svg';
+// import help from '../assets/img/help.svg';
+// import search from '../assets/img/search.svg';
+import UserBar from './UserBar';
+import './header.scss'
 
 const Header = () => {
   return (
@@ -13,9 +16,19 @@ const Header = () => {
         </Link>
         <Navbar />
       </div>
-      {/* <div className="user-options"> */}
-        {/* <img src={user} alt="user" /> */}
-      {/* </div> */}
+      <div className="user-options">
+        {/* <div className="btn ">
+          <button > 
+            <img src={search}></img>
+          </button>
+          <label>Pesquisar</label>
+        </div>
+        <Link to='/help' className="help">
+            <img src={help}></img>
+          </Link> */}
+        <UserBar/>     
+      </div>
+
     </header>
   );
 };

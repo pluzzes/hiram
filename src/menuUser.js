@@ -1,43 +1,14 @@
-export const menuItems = [
+export const menuUser = [
   {
-    title: 'Home',
-    url: '/',
-  },
-  {
-    title: 'Services',
-    url: '/services',
+    url: '/user-options',
     submenu: [
       {
-        title: 'Researches',
-        url: 'researches',
-        submenu:[
-          {
-            title: 'Imoveis',
-            url: 'researches/imoveis',
-          },
-          {
-            title: 'Estacionamentos',
-            url: 'researches/estabelecimentos',
-          }
-        ]
+        title: 'Account',
+        url: '/account',
       },
       {
-        title: 'Consulting',
-        url: 'consulting',
-        submenu: [
-          {
-            title: 'Financial',
-            url: 'financial',
-          },
-          {
-            title: 'Expansion',
-            url: 'expansion',
-          },
-        ],
-      },
-      {
-        title: 'SEO',
-        url: 'seo',
+        title: 'logout',
+        url: '/sigin',
       },
     ],
   },
