@@ -12,6 +12,7 @@ import OurValues from '../pages/About/OurValues';
 import Reseach from '../pages/Research';
 import Authentication from '../pages/Authentication';
 import BI from '../pages/BI';
+import ArcGis from '../pages/Arcgis';
 
 import useAuth from '../hook/useAuth'
 
@@ -31,6 +32,7 @@ const App = () => {
               <Route path="services" element={< PrivateRoute Item={Services} />} />
               <Route path="researches" element={<PrivateRoute Item={Reseach} />} />
               <Route path="researches/bi" element={<PrivateRoute Item={BI} />} />
+              <Route path="researches/arcgis" element={<PrivateRoute Item={ArcGis} />} />
               <Route path="researches/imoveis" element={<PrivateRoute Item={Imoveis} />} />
               <Route path="researches/estabelecimentos" element={<PrivateRoute Item={Estabelecimentos} />} />
               <Route path="seo" element={<PrivateRoute Item={SEO} />} />

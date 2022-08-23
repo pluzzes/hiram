@@ -4,13 +4,13 @@ import search from '../assets/img/search.svg'
 import './table.scss'
 
 const list = [
-  {id:1,data:'pesquisa a',type:'a',description:'alguma coisa',content:'https://powerbi.microsoft.com/pt-br/'},
-  {id:2,data:'pesquisa b',type:'d',description:'alguma coisa',content:'https://powerbi.microsoft.com/pt-br/'},
-  {id:3,data:'pesquisa c',type:'e',description:'alguma coisa',content:'https://powerbi.microsoft.com/pt-br/'},
+  {id:1,data:'pesquisa a',type:'a',description:'alguma coisa',content:'https://www.arcgis.com/index.html'},
+  {id:2,data:'pesquisa b',type:'d',description:'alguma coisa',content:'https://www.arcgis.com/index.html'},
+  {id:3,data:'pesquisa c',type:'e',description:'alguma coisa',content:'https://www.arcgis.com/index.html'},
 ]
 
 const colNames =['Pesquisa','Categoria','Descrição','Conteúdo']
-const BI = () => {
+const Arcgis = () => {
 
 
   return <div className='container'>
@@ -66,4 +66,4 @@ const BI = () => {
   </div>
 };
 
-export default BI;
+export default Arcgis;
