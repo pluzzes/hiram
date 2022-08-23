@@ -57,7 +57,7 @@ export const menuItems = [
     submenu: [
       {
         title: 'Pesquisas',
-        url: '/reasearches/bi',
+        url: '/researches/bi',
       },
       {
         title: 'Consultoria',
@@ -71,7 +71,7 @@ export const menuItems = [
     submenu: [
       {
         title: 'Pesquisas',
-        url: '/reasearches/arcgis',
+        url: '/researches/arcgis',
       },
       {
         title: 'Consultoria',

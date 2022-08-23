@@ -8,7 +8,7 @@ export const menuUser = [
       },
       {
         title: 'logout',
-        url: '/sigin',
+        url: '/',
       },
     ],
   },
